@@ -1,0 +1,22 @@
+{
+  "name": "UKC remove likes",
+  "manifest_version": 2,
+  "version": "0.0.1",
+  "description": "Tiny chrome extension to remove UKC likes.",
+
+  "permissions": [
+    "http://www.ukclimbing.com/",
+    "https://www.ukclimbing.com/"
+  ],
+
+  "web_accessible_resources": ["jquery-2.0.3.min.map"],
+
+  "content_scripts": [
+    {
+        "matches": ["http://www.ukclimbing.com/*","https://www.ukclimbing.com/*"],
+        "js": ["jquery-2.0.3.min.js", "ukc.js"],
+        "run_at": "document_end",
+        "all_frames": true
+    }
+  ]
+}
