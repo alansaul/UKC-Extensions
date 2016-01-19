@@ -1,0 +1,16 @@
+{
+  "title": "remove_likes",
+  "name": "firefoxremovelikes",
+  "version": "0.0.6",
+  "description": "A tiny extension to remove UKC likes and dislikes",
+  "main": "index.js",
+  "author": "Alan Saul",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ]
+}

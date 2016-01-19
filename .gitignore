@@ -37,3 +37,5 @@ ehthumbs.db
 Thumbs.db
 
 *.pem
+remove_likes_jwt_issuer
+remove_likes_jwt_secret
