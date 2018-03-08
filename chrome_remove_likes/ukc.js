@@ -1,4 +1,7 @@
 function remove_likes(){
-    $('#threadText .btn-group .btn-sm').hide()
+    var buttons = document.querySelectorAll('#threadText .btn-group .btn-sm');
+    [].forEach.call(buttons, function(button) {
+        button.style.display = "none";
+    });
 }
 remove_likes()
