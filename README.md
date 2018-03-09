@@ -11,4 +11,4 @@ Click "Download Zip", unzip it, navigate to "about:addons" in firefox, click the
 
 ### For Chrome
 
-Just click "Download Zip", unzip it, navigate to "chrome://extensions/" in your browser, enable "developer mode" and then drag and drop the remove_likes.crx file into the page, accept the installation.
+Just click "Download Zip", unzip it, navigate to "chrome://extensions/" in your browser, enable "developer mode" and then click "Load unpacked extension...". Select the folder called chrome_remove_likes and the extension will install.
